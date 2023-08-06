@@ -1,0 +1,16 @@
+.sobre-nosotros-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sobre-nosotros-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .sobre-nosotros-images img {
+    max-width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

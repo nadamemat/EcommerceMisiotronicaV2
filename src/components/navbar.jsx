@@ -6,10 +6,12 @@ import "./navbar.css";
 export const Navbar = () => {
   return (
     <div className="navbar">
+      
       <div className="links">
         
         <Link to="/"> Inicio </Link>
-        <Link to="/"> Comprar </Link>
+        <Link to="/cart"> Comprar </Link>
+        <Link to="/sobreNosotros">Sobre nosotros</Link>
         <Link to="/contact"> Contacto </Link>
         <Link to="/cart">
           <ShoppingCart size={32} />

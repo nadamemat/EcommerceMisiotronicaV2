@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import './contact.css';
 
 const Contact = () => {
-  // Estado para almacenar los datos del formulario
+ 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
   });
 
-  // Función para manejar cambios en los campos del formulario
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevFormData) => ({
@@ -18,18 +18,18 @@ const Contact = () => {
     }));
   };
 
-  // Función para manejar el envío del formulario por correo electrónico
+  
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Crear la URL de correo electrónico con los datos del formulario
+    
     const emailUrl = `mailto:someone@example.com?subject=${encodeURIComponent(
       'Mensaje desde formulario de contacto'
     )}&body=${encodeURIComponent(
       `Nombre: ${formData.name}\nEmail: ${formData.email}\nMensaje: ${formData.message}`
     )}`;
-    // Redirigir al usuario a la URL del correo electrónico
+   
     window.location.href = emailUrl;
-    // Limpia los campos del formulario después de enviar los datos
+    
     setFormData({
       name: '',
       email: '',

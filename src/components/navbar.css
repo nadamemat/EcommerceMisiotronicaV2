@@ -19,3 +19,9 @@
     margin-left: 20px;
     font-size: 25px;
   }
+  
+  .logo {
+    width: 10rem; /* Ajusta el ancho según tu preferencia */
+    height: auto; /* Mantén la proporción de aspecto */
+    margin-right: 48rem; /* Espacio a la derecha del logo para separarlo de los enlaces */
+  }

@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.css';
+import fb from '../assets/facebook.png';
+import tw from '../assets/twiter.png';
+import ig from '../assets/instagram.png';
 
 function Footer() {
   return (
@@ -26,9 +29,9 @@ function Footer() {
         </div>
       </div>
       <div className="footer-social">
-        <a href="https://facebook.com"><img src="../assets/facebook.png" alt="Facebook" /></a>
-        <a href="https://twitter.com"><img src="../assets/twitter.png" alt="Twitter" /></a>
-        <a href="https://instagram.com"><img src="../assets/nstagram.png" alt="Instagram" /></a>
+        <a href="https://facebook.com"><img src={fb} alt="Facebook" /></a>
+        <a href="https://twitter.com"><img src={tw} alt="Twitter" /></a>
+        <a href="https://instagram.com"><img src={ig} alt="Instagram" /></a>
       </div>
       <div className="footer-bottom">
         <p>Todos los derechos reservados © 2023 - Misiotrónica</p>

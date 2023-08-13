@@ -1,5 +1,7 @@
 import React from 'react';
 import './SobreNosotros.css';
+import gente from "../../assets/genteenlaoficina.png";
+import taller from "../../assets/taller.png";
 
 const SobreNosotros = () => {
   return (
@@ -9,8 +11,8 @@ const SobreNosotros = () => {
       <p>Nuestro equipo está formado por profesionales apasionados por la electronica</p>
       <p>Trabajamos con la misión de satisfacer a nuestros clientes con la mas alta calidad en productos</p>
       <div className="sobre-nosotros-images">
-        <img src="../assets/taller.png" alt="taller" />
-        <img src="../assets/genteenlaoficina.png" alt="genteenlaoficina" />
+        <img src={taller} alt="taller" />
+        <img src={gente} alt="genteenlaoficina" />
       </div>
     </div>
   );

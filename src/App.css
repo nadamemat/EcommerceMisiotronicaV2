@@ -1,11 +1,28 @@
 .App {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: auto;
+  color: white;
+ 
   min-height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
+  background-image: url("https://png.pngtree.com/background/20230417/original/pngtree-website-electronic-technology-picture-image_2447237.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0;
+
   margin: 0;
+  
+}
+
+footer{
+  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
